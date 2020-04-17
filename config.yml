@@ -1,0 +1,19 @@
+# ItemEco default configuration file
+# by nahkd123
+#
+Display:
+  Lore Prefix: "§7Giá trị: §e"
+  Lore Suffix: " §6¥"
+  GUI Title: "§8Bỏ vật phẩm vào đây để bán"
+  Messages:
+    Result: "§7>> Đã bán §a%i §7vật phẩm, trả lại §c%i §7vật phẩm, nhận số tiền là §e%d §6¥"
+    Failed: "§7>> §cGiao dịch thất bại :("
+    Added Lore: "§7>> §aThêm lore thành công"
+    No Permission: "§7>> §cBạn ko có quyền bruh"
+  Help Message:
+  - "§bItemEco §7by nahkd123"
+  - "§3Suggested by §3Xuân Nghi (https://minecraftvn.net/t27086/)"
+  - "§3/isell open/sell §bMở menu bán đồ"
+  - "§3/isell lore §e<Value> §bThêm lore"
+GUI:
+  Size: 4                   # 4 hàng a.k.a 48 slots

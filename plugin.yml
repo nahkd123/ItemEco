@@ -1,0 +1,24 @@
+name: "ItemEco"
+authors: ["nahkd123", "a random guy on mcvn"]
+version: "1.0"
+api-version: "1.15"
+main: "me.nahkd.spigot.itemeco.ItemEco"
+api: []
+depend: ["Vault"]
+
+commands:
+  isell:
+    description: "The only command that you'll need"
+    usage: "/isell for help"
+    permission: "itemeco.general"
+
+permissions:
+  itemeco.general:
+    description: "This should be allowed"
+    default: true
+  itemeco.general.sell:
+    description: "Allow to sell items"
+    default: true
+  itemeco.general.addlore:
+    description: "Allow to add lore to items"
+    default: op
