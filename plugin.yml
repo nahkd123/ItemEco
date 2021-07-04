@@ -1,6 +1,6 @@
 name: "ItemEco"
 authors: ["nahkd123", "a random guy on mcvn"]
-version: "1.0"
+version: "1.0.1"
 api-version: "1.15"
 main: "me.nahkd.spigot.itemeco.ItemEco"
 api: []

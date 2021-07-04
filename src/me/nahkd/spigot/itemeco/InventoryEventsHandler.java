@@ -35,7 +35,7 @@ public class InventoryEventsHandler implements Listener {
 					rejected.add(i);
 					continue;
 				}
-				moneh += p;
+				moneh += p * i.getAmount();
 				accepted++;
 			}
 			
